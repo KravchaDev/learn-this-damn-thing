@@ -15,7 +15,6 @@ const bubbleSort = (items: Array<number>): Array<number> => {
     return items
 }
 
-
 const items = [1,5,3,2,6,7,2,53,1035,2034,2077]
 
 const result = bubbleSort(items)
