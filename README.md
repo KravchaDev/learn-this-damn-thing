@@ -33,3 +33,7 @@
 	- Заголовок: "конспекты --> [Название книги]"
 	- Комментарий: если хочешь чтобы я отредактировал в дальнейшем твой репозиторий то пиши "needs editing", если нет, то соответственно пропускай комментарий
 	- Твой вклад готов!
+
+
+#### Мой промокод на Digital Ocean
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=6331f7fe8c12&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
