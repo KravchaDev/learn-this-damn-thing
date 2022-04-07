@@ -1,8 +1,118 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-  font-family: 'Gochi Hand', cursive;
-font-family: 'Kameron', serif; 
-  color:#33ff66;
-  background-color:black;
-  letter-spacing: 3px; 
-  font-weight: bold;
+  background: url("https://habrastorage.org/webt/wu/1-/np/wu1-npycovqyp55c7emjrulztoa.jpeg");
+}
+
+.container {
+  background: #222;
+  position: relative;
+  resize: both;
+  overflow: auto;
+  width: 600px;
+  height: 450px;
+}
+
+.browser-frame {
+  position: relative;
+  padding: 132px 0 55px 0;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  border-image-slice: 171 57 57 515 fill;
+}
+
+.browser-frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/131442/netscape.png");
+  border-image-slice: 171 57 57 515 fill;
+  border-image-width: 170px 56px 57px 515px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat repeat;
+  pointer-events: none;
+}
+
+.center {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+main {
+  padding: 10px 0;
+  background: #222;
+  text-align: center;
+  color: aqua;
+  height: 100%;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+.couldnt-do-this-in-the-90s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.couldnt-do-this-in-the-90s img {
+  width: 60px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 80%;
+  height: auto;
+}
+
+table, td {
+  margin: 20px auto;
+  border: outset 1px limegreen;
+  color: hotpink;
+  padding: 2px;
+}
+
+td {
+  padding: 3px 10px;
+}
+
+a {
+  color: hotpink;
+}
+
+#drag-handle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 85px;
+}
+
+.resize-handle {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  right: 0;
+  bottom: 0;
+  top: auto !important;
+  left: auto !important;
+  margin-top: -22px;
+  margin-left: -22px;
+  width: 20px;
+  height: 20px;
+  cursor: nw-resize !important;
 }
