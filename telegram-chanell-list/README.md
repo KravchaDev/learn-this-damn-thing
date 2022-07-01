@@ -60,6 +60,7 @@
 
 ## it-talks
 ![](https://habrastorage.org/webt/lk/5v/o3/lk5vo3dfe2x_alu-87f68jmtmhk.png)
+
 [Зайти в чат](https://t.me/it_talks)
 
 
